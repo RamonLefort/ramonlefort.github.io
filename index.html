@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre - Ingeniero Informático</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="logo">TuNombre.dev</div>
+    <nav> <ul id="nav-links"> <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    </nav>
+
+    <div class="menu-toggle" id="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+</header>
+
+<main>
+    <section id="inicio" class="hero">
+        <h1>Hola, soy [Tu Nombre]</h1>
+        <p class="subtitulo">
+            <span id="typing-effect"></span>
+        </p>
+        <a href="#proyectos" class="cta-button">Ver mis proyectos</a>
+    </section>
+
+    <section id="sobre-mi" class="content-section fade-in">
+        <h2>Sobre Mí</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Soy un Ingeniero Informático apasionado por crear soluciones tecnológicas eficientes y escalables. Mi especialidad es el desarrollo [Tu Especialidad, ej: backend con Python y Django / frontend con React]...</p>
+                <p>Me encanta resolver problemas complejos y estoy siempre en busca de aprender nuevas tecnologías. Cuando no estoy programando, me encontrarás [Tu Hobby].</p>
+            </div>
+            <div class="about-skills">
+                <h3>Habilidades Clave:</h3>
+                <ul>
+                    <li><i class="icon-js"></i> JavaScript (ES6+)</li>
+                    <li><i class="icon-python"></i> Python</li>
+                    <li><i class="icon-react"></i> React</li>
+                    <li><i class="icon-node"></i> Node.js</li>
+                    <li><i class="icon-db"></i> SQL & NoSQL</li>
+                    <li><i class="icon-git"></i> Git & GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="content-section fade-in">
+        <h2>Habilidades Técnicas</h2>
+        <p class="section-intro">Estas son las tecnologías con las que me siento más cómodo y en las que tengo experiencia demostrable.</p>
+        <div class="skills-grid">
+
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <ul>
+                    <li><i class="icon-html"></i> HTML5 (Semántico)</li>
+                    <li><i class="icon-css"></i> CSS3 (Flexbox, Grid, SASS)</li>
+                    <li><i class="icon-js"></i> JavaScript (ES6+) & TypeScript</li>
+                    <li><i class="icon-react"></i> React & Next.js</li>
+                    <li><i class="icon-vue"></i> Vue.js (Opcional)</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <ul>
+                    <li><i class="icon-node"></i> Node.js & Express</li>
+                    <li><i class="icon-python"></i> Python (Django, Flask)</li>
+                    <li><i class="icon-java"></i> Java (Spring Boot) (Opcional)</li>
+                    <li><i class="icon-api"></i> APIs REST & GraphQL</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Bases de Datos y DevOps</h3>
+                <ul>
+                    <li><i class="icon-db"></i> SQL (PostgreSQL, MySQL)</li>
+                    <li><i class="icon-db-nosql"></i> NoSQL (MongoDB, Firebase)</li>
+                    <li><i class="icon-docker"></i> Docker & Kubernetes</li>
+                    <li><i class="icon-aws"></i> AWS / Google Cloud (Opcional)</li>
+                    <li><i class="icon-git"></i> Git & GitHub (CI/CD)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="content-section fade-in">
+        <h2>Experiencia Laboral</h2>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - Presente</div>
+                <div class="timeline-content">
+                    <h3>Ingeniero de Software Senior @ [Nombre de la Empresa]</h3>
+                    <p class="timeline-location">[Ciudad, País]</p>
+                    <ul>
+                        <li>Lideré el desarrollo del [Nombre del Proyecto], impactando a [Número] usuarios.</li>
+                        <li>Optimicé consultas a la base de datos, mejorando la velocidad de respuesta en un [XX]%.</li>
+                        <li>Implementé un flujo de CI/CD usando [Herramienta, ej: GitHub Actions] para automatizar despliegues.</li>
+                        <li>Mentoría de 2 desarrolladores junior del equipo.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020 - 2022</div>
+                <div class="timeline-content">
+                    <h3>Desarrollador Full Stack @ [Nombre de Empresa Anterior]</h3>
+                    <p class="timeline-location">[Ciudad, País]</p>
+                    <ul>
+                        <li>Desarrollé y mantuve APIs RESTful con Node.js para la aplicación móvil.</li>
+                        <li>Colaboré en el rediseño de la interfaz de usuario con React y TypeScript.</li>
+                        <li>Participé en metodologías Ágiles (Scrum) con sprints de dos semanas.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="educacion" class="content-section fade-in">
+        <h2>Educación</h2>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2016 - 2020</div>
+                <div class="timeline-content">
+                    <h3>Máster en Ingeniería Informática (o Grado)</h3>
+                    <p class="timeline-location">[Nombre de la Universidad], [Ciudad]</p>
+                    <p>Especialización en [Tu especialización, ej: Ingeniería de Software o Inteligencia Artificial]. Proyecto Final de Grado sobre [Tema].</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>Certificación [Nombre, ej: AWS Certified Developer]</h3>
+                    <p class="timeline-location">[Entidad que lo emite, ej: Amazon Web Services]</p>
+                    <p>Certificación que valida las habilidades en [Tecnología].</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="logros" class="content-section fade-in">
+        <h2>Logros y Publicaciones</h2>
+        <div class="achievements-grid">
+
+            <div class="achievement-card">
+                <div class="achievement-icon">🏆</div> <h3>Ganador Hackathon [Nombre]</h3>
+                <p>Primer lugar en el hackathon [Nombre] de 2023, desarrollando una app de [Descripción] en 48 horas.</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">📄</div>
+                <h3>Publicación en [Nombre de Conferencia o Blog]</h3>
+                <p>Autor del artículo "[Nombre del Artículo]" sobre [Tema], publicado en [Medio].</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">🎙️</div>
+                <h3>Charla Técnica en [Nombre del Evento]</h3>
+                <p>Ponente invitado en [Evento] para hablar sobre [Tema de tu charla].</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="proyectos" class="content-section fade-in">
+        <h2>Proyectos Destacados</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="imagen-proyecto1.jpg" alt="Nombre del Proyecto 1">
+                <div class="project-info">
+                    <h3>Nombre del Proyecto 1</h3>
+                    <p>Una breve descripción de lo que hace el proyecto y las tecnologías usadas.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Ver Demo</a>
+                        <a href="#" target="_blank">Código (GitHub)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="imagen-proyecto2.jpg" alt="Nombre del Proyecto 2">
+                <div class="project-info">
+                    <h3>Nombre del Proyecto 2</h3>
+                    <p>Una breve descripción de lo que hace el proyecto y las tecnologías usadas.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Ver Demo</a>
+                        <a href="#" target="_blank">Código (GitHub)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="content-section fade-in">
+        <h2>Hablemos</h2>
+        <p>Estoy disponible para oportunidades freelance o un nuevo desafío profesional. ¡Contacta conmigo!</p>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Email" required>
+            <textarea name="message" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="cta-button">Enviar Mensaje</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Diseñado y programado por [Tu Nombre] © 2025</p>
+    <div class="social-links">
+        <a href="https: //linkedin.com/in/tu-usuario" target="_blank">LinkedIn</a>
+        <a href="https://github.com/tu-usuario" target="_blank">GitHub</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
