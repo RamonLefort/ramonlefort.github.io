@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const textsToType = [
         "Ingeniero Informático.",
         "Desarrollador Full Stack.",
-        "Entusiasta de la IA.",
+        "Entusiasta tecnológico.",
         "Creador de Soluciones."
     ];
     let textIndex = 0;
