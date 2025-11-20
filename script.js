@@ -35,6 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    typingElement.textContent = '';
+
     type(); // Inicia el efecto de escritura
 
 
